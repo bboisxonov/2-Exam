@@ -1,0 +1,55 @@
+.section6{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &_title{
+        font-family: 'DM Serif Display', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+    &_form{
+        position: relative;
+        &_btn{
+            font-family: 'Public Sans', sans-serif;
+            width: 200px;
+            font-weight: bold;
+            font-size: 15px;
+            height: 50px;
+            border: none;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1176px) {
+    .section6{
+        flex-direction: column;
+    
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .section6{
+        &_form{
+            height: 100px;
+            &_btn{
+                font-family: 'Public Sans', sans-serif;
+                width: 450px;
+                font-weight: bold;
+                font-size: 15px;
+                height: 50px;
+                border: none;
+                position: absolute;
+                bottom: -20px;
+            }
+        }
+    }
+}

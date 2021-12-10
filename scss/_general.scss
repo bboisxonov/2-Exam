@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background: #EDF3F8;
+    @font-face {
+        font-family: 'Public Sans', sans-serif;
+        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'DM Serif Display', serif;
+        src: url(../fonts/DMSerifDisplay-Regular.ttf);
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.red_btn{
+    background: #BA4270;
+    border-radius: 24px;
+    width: 173px;
+    color: #FBFCFE;
+}
+.red_btn:hover{
+    background: #DA6D97;
+}
+.red_btn:active{
+    background: #DA6D97;
+}
+
+.input{
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    width: 445px;
+    height: 48px;
+    border: none;
+    
+    color: #36536B;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    opacity: 0.5;
+} 
+.input:active{
+    opacity: 1;
+}
+.input:hover{
+    opacity: 1;
+}
+
